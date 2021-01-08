@@ -8,7 +8,7 @@ verbose=0, warm_start=False, n_jobs=1)
 - penalty: 페널티를 부여할 때 사용할 기준('1l', 'l2')
 - dual: Dual Formulation인지 Primal Formulation인지를 결정(True, False)
 - tol: 중지 기준에 대한 허용 오차 값
-- C: 규칙의 강도의 역수 값
+- C: 규제 효과를 크게 하거나 줄이거나 할 수 
 - fit_intercept: 의사 결정 기능에 상수를 추가할 지 여부 결정(True, False)
 - intercept_scaling: solver가 'liblinear'이고 fit_intercept가 True일 때 사용 가능
 - class_weight: 클래스에 대한 가중치들의 값
